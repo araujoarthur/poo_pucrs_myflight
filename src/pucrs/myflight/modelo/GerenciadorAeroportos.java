@@ -7,15 +7,15 @@ public class GerenciadorAeroportos {
         this.aeroportos = new ArrayList<>();
     }
 
+    public void adicionar(Aeroporto aeroporto) {
+        this.aeroportos.add(aeroporto);
+    }
+
     public ArrayList<Aeroporto> listarTodos() {
         return new ArrayList<Aeroporto>(this.aeroportos);
     }
 
-    public ArrayList<Aeroporto> buscarPorCodigo(String cod) {
-        ArrayList<Aeroporto> res = new ArrayList<>();
-
+    public Aeroporto buscarPorCodigo(String cod) {
         // TO-DO
-
-        return res;
     }
 }
