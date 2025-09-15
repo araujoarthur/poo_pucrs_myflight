@@ -6,6 +6,6 @@ public class GerenciadorCias {
 	private ArrayList<CiaAerea> empresas;
 	
 	public GerenciadorCias() {
-		empresas = new ArrayList<>();
+		this.empresas = new ArrayList<>();
 	}
 }

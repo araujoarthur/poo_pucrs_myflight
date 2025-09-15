@@ -6,4 +6,16 @@ public class GerenciadorAeroportos {
     public GerenciadorAeroportos() {
         this.aeroportos = new ArrayList<>();
     }
+
+    public ArrayList<Aeroporto> listarTodos() {
+        return new ArrayList<Aeroporto>(this.aeroportos);
+    }
+
+    public ArrayList<Aeroporto> buscarPorCodigo(String cod) {
+        ArrayList<Aeroporto> res = new ArrayList<>();
+
+        // TO-DO
+
+        return res;
+    }
 }
